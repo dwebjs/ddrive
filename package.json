@@ -1,51 +1,51 @@
 {
-  "name": "@dwebjs/ddrive",
-  "description": "dWeb 2.0's core library for dDrive.",
-  "version": "1.0.0",
-  "contributors": [
-    "Jared Rice Sr. <jared@dpeeps.com>",
-    "Peeps Labs <labs@dpeeps.com>"
-  ],
-  "bugs": {
-    "url": "https://github.com/dwebjs/ddrive/issues"
-  },
-  "dependencies": {
-    "@dwebjs/ddatabase": "dwebjs/ddatabase#master",
-    "append-tree": "^2.3.5",
-    "duplexify": "^3.5.0",
-    "from2": "^2.3.0",
-    "inherits": "^2.0.3",
-    "mutexify": "^1.1.0",
-    "protocol-buffers-encodings": "^1.1.0",
-    "random-access-file": "^2.0.1",
-    "sodium-universal": "^2.0.0",
-    "stream-collector": "^1.0.1",
-    "stream-each": "^1.2.0",
-    "thunky": "^1.0.2",
-    "uint64be": "^2.0.1",
-    "unixify": "^1.0.0"
-  },
-  "devDependencies": {
-    "protocol-buffers": "^4.0.2",
-    "random-access-memory": "^2.3.0",
-    "standard": "^9.0.2",
-    "tape": "^4.6.3",
-    "temporary-directory": "^1.0.2"
-  },
-  "homepage": "https://ddrive.io",
-  "keywords": [
-    "dweb",
-    "distributed-web",
-    "ddrive"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dwebjs/ddrive.git"
-  },
-  "scripts": {
-    "test": "standard && tape test/*.js",
-    "protobuf": "protocol-buffers schema.proto -o lib/messages.js"
-  }
+    "name": "@dwebjs/ddrive",
+    "description": "Distributed storage drives for the decentralized web.",
+    "version": "1.0.0",
+    "contributors": [
+        "Jared Rice Sr. <jared@dpeeps.com>",
+        "Peeps Labs <labs@dpeeps.com>"
+    ],
+    "bugs": {
+        "url": "https://github.com/dwebjs/ddrive/issues/"
+    },
+    "dependencies": {
+        "@dwebjs/ddatabase": "dwebjs/ddatabase#master",
+        "append-true": "^2.3.5",
+        "duplexify": "^3.5.0",
+        "from2": "^2.3.0",
+        "inherits": "^2.0.3",
+        "mutexify": "^1.1.0",
+        "protocol-buffers-encodings": "^1.1.0",
+        "random-access-file": "^2.0.1",
+        "sodium-universal": "^2.0.0",
+        "stream-collector": "^1.0.1",
+        "stream-each": "^1.2.0",
+        "thunky": "^1.0.2",
+        "uint64be": "^2.0.1",
+        "unixify": "^1.0.0"
+    },
+    "devDependencies": {
+        "protocol-buffers": "^4.0.2",
+        "random-access-memory": "^2.3.0",
+        "standard": "^9.0.2",
+        "tape": "^4.6.3",
+        "temporary-directory": "^1.0.2"
+    },
+    "main": "index.js",
+    "license": "MIT",
+    "homepage": "https://dwebs.io",
+    "keywords": [
+        "dweb",
+        "distributed-web",
+        "ddrive"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dwebjs/ddrive.git"
+    },
+    "scripts": {
+        "test": "standard && tape test/*.js",
+        "protobuf": "protocol-buffers schema.proto -o lib/messages.js"
+    }
 }
